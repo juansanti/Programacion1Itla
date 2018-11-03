@@ -42,5 +42,13 @@ namespace Inscripciones.Windows
         {
 
         }
+
+        private void escuelasEntityToolStripMenuItem_Click(object sender, EventArgs e)
+        { 
+            frmEscuelasEntityFramework frm = new frmEscuelasEntityFramework();
+            frm.MdiParent = this;
+
+            frm.Show();
+        }
     }
 }

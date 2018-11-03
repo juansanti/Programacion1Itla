@@ -34,6 +34,7 @@
             this.listaEstudiantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.otraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.otraMasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.escuelasEntityToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +54,8 @@
             this.estudioantesToolStripMenuItem,
             this.listaEstudiantesToolStripMenuItem,
             this.otraToolStripMenuItem,
-            this.otraMasToolStripMenuItem});
+            this.otraMasToolStripMenuItem,
+            this.escuelasEntityToolStripMenuItem});
             this.registroToolStripMenuItem.Name = "registroToolStripMenuItem";
             this.registroToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.registroToolStripMenuItem.Text = "Registro";
@@ -85,6 +87,13 @@
             this.otraMasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.otraMasToolStripMenuItem.Text = "Otra mas";
             // 
+            // escuelasEntityToolStripMenuItem
+            // 
+            this.escuelasEntityToolStripMenuItem.Name = "escuelasEntityToolStripMenuItem";
+            this.escuelasEntityToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.escuelasEntityToolStripMenuItem.Text = "Escuelas Entity";
+            this.escuelasEntityToolStripMenuItem.Click += new System.EventHandler(this.escuelasEntityToolStripMenuItem_Click);
+            // 
             // MdiParent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -110,5 +119,6 @@
         private System.Windows.Forms.ToolStripMenuItem listaEstudiantesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem otraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem otraMasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem escuelasEntityToolStripMenuItem;
     }
 }
